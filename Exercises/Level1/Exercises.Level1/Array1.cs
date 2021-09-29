@@ -41,7 +41,12 @@ namespace Exercises.Level1
         /// </summary>
         public int[] MakePi()
         {
-            throw new NotImplementedException();
+            int[] array = new int[3];
+            array[0] = 3;
+            array[1] = 1;
+            array[2] = 4;
+
+            return array;
         }
 
         /// <summary>
